@@ -24,4 +24,6 @@ urlpatterns = [
     path('test/', views.test, name='test'),
     path('temp/', views.templateReturn, name='temp'),
     path('pro-app/', include('proApp.urls')),
+
+    path('__reload__/', include('django_browser_reload.urls'))
 ]
