@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Pro title
+{% endblock %}
+
+{% block content %}
+    <h2>Pro Details for {{pro_item.id}}</h2>
+        <div>
+            <h3>{{ pro_item.name }}</h3>
+            <img src="{{ pro_item.image.url  }}" alt="{{ pro_item.name }}" width="200px">
+            <p>{{ pro_item.type }}</p>
+            <p>{{ pro_item.description }}</p>
+        </div>
+{% endblock %}
