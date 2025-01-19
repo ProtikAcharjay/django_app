@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+
+# Ignore git configuration files
+.git/
+
+# Ignore .gitattributes
+.gitattributes
+
+__pycache__/
+
